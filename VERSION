@@ -1,5 +1,5 @@
 # VERSION — P6 Canon Verify (canon-verify-layer)
 # Function: the current release version of this layer. Advances only on freeze.
-# 0.0.0-dev means the layer is in build and has not yet been signed off at v1.
+# 1.0.0 — P6 frozen. Tests pass (3/3).
 
-0.0.0-dev
+1.0.0
