@@ -13,4 +13,4 @@ Depends:  (nothing — standalone zero-trust script)
 Consumed: Auditing, external verification
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   0.0.0-dev (in build, pre-freeze)
+Status:   1.0.1 (frozen)
