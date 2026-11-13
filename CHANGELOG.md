@@ -26,7 +26,7 @@ CHANGELOG.md — build history for P6 Canon Verify, latest entry at top.
 
 ### Bad
 
-- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- Frozen on the laptop run alone (2026-11-13); confirmed on the S24 by James, 2026-11-13.
 - v1 still reports an empty ledger as intact. It is frozen; callers must move to canon_verify_v2.
 
 ### Ugly
