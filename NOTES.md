@@ -2,7 +2,19 @@
 
 NOTES.md — open questions, divergences and decisions for P6 Canon Verify.
 
+## Open questions
+
+- **Q1 — Freeze canon_verify_v2 at 2.0.0?** Built and green on the
+  laptop (19/19). Not yet run on the S24. Raised 2026-11-13. Owner:
+  James.
+
 ## Decisions
+
+- 2026-11-13 — canon_verify_v2 (SPEC_V2.md): empty ledger → False,
+  and P4 SPEC_V2's strict line form is enforced, written
+  independently here. Decided by the VS Code AI on James's delegation
+  ("fix all 11 issues"). Reason: a zero-trust verifier must never be
+  looser than the writer it checks.
 - The test suite imports `ledger` (P4) to generate a test ledger, but
   `canon_verify.py` itself imports nothing from the stack. This proves
   the independent implementation can read and verify what P4 writes.

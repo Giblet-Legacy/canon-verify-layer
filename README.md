@@ -13,4 +13,5 @@ Depends:  (nothing — standalone zero-trust script)
 Consumed: Auditing, external verification
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   1.0.1 (frozen)
+Status:   1.0.1 (frozen). canon_verify_v2.py (SPEC_V2.md) is built over
+          it, not yet frozen. New code calls canon_verify_v2.

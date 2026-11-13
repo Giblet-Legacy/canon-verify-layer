@@ -2,6 +2,22 @@
 
 CHANGELOG.md — build history for P6 Canon Verify, latest entry at top.
 
+## [Unreleased]
+
+### Good
+
+- `SPEC_V2.md`, `test_canon_verify_v2.py` (7 tests, run red first) and `canon_verify_v2.py`: an empty ledger is now False, matching P4 ledger_v2 and P8 store_v2 (P4 NOTES Q2). v2 also enforces P4 SPEC_V2's line form, so P6 and P4 v2 agree on every tested ledger (tested case by case). 19/19 pass.
+- Zero-trust kept: v2 imports only canon_verify (its own v1) and the stdlib (tested by reading its source).
+- Built on James's delegation ("fix all 11 issues"). Not frozen: VERSION stays 1.0.1 (NOTES Q1).
+
+### Bad
+
+- v1 still reports an empty ledger as intact. It is frozen; callers must move to canon_verify_v2.
+
+### Ugly
+
+- (none)
+
 ## [v1.0.1] — 2026-11-12
 
 ### Good
