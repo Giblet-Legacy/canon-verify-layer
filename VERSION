@@ -2,4 +2,6 @@
 # Function: the current release version of this layer. Advances only on freeze.
 # 1.0.1 — P6 patch: hardening + signer check. Tests pass (12/12).
 
-1.0.1
+# 2.0.0 — canon_verify_v2.py frozen (SPEC_V2.md). Tests pass (19/19).
+
+2.0.0

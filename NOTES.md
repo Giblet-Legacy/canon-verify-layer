@@ -4,7 +4,7 @@ NOTES.md — open questions, divergences and decisions for P6 Canon Verify.
 
 ## Open questions
 
-- **Q1 — Freeze canon_verify_v2 at 2.0.0?** Built and green on the
+- **Q1 — Freeze canon_verify_v2 at 2.0.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. Built and green on the
   laptop (19/19). Not yet run on the S24. Raised 2026-11-13. Owner:
   James.
 

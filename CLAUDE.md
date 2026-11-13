@@ -20,7 +20,7 @@ Every file MUST have a top header paragraph explaining its function.
 Every function MUST have a numbered header.
 
 ## P6 Architecture Specifics
-- `canon_verify_v2.py` (SPEC_V2.md, built, not frozen) is the current layer: empty ledger is False and P4 SPEC_V2's line form is enforced. It may import `canon_verify`, nothing else from the stack.
+- `canon_verify_v2.py` (SPEC_V2.md, frozen 2.0.0) is the current layer: empty ledger is False and P4 SPEC_V2's line form is enforced. It may import `canon_verify`, nothing else from the stack.
 - Reads `.jsonl` ledgers.
 - Verifies the Ed25519 signature over the raw 32-byte digest.
 - Checks the hash chain (prev, hash, seq).

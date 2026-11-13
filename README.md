@@ -14,4 +14,4 @@ Consumed: Auditing, external verification
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
 Status:   1.0.1 (frozen). canon_verify_v2.py (SPEC_V2.md) is built over
-          it, not yet frozen. New code calls canon_verify_v2.
+          it, frozen at 2.0.0. New code calls canon_verify_v2.
